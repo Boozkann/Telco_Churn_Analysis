@@ -16,7 +16,7 @@ Step 1: Examine the overall structure of the dataset Step 2: Identify numerical 
 
 Step 1: Apply necessary procedures for missing and outlier values
 
-## TASK 3: Feature Engineering, Encoding & Modeling
+# TASK 3: FEATURE ENGINEERING, ENCODING AND MODELING
 
 1. **Feature Engineering**  
    - Generated new features such as interaction terms and ratios.
