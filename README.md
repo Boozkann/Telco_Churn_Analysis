@@ -15,3 +15,35 @@ Step 1: Examine the overall structure of the dataset Step 2: Identify numerical 
 # TASK 2: DATA CLEANING
 
 Step 1: Apply necessary procedures for missing and outlier values
+
+## TASK 3: Feature Engineering, Encoding & Modeling
+
+1. **Feature Engineering**  
+   - Generated new features such as interaction terms and ratios.
+
+2. **Encoding & Scaling**  
+   - Applied **One-Hot Encoding** for categorical variables.  
+   - Combined rare categories where necessary.  
+   - Scaled numerical features using **StandardScaler**.
+
+3. **Modeling**  
+   - Built a **Random Forest Classifier** for churn prediction.
+
+4. **Model Evaluation**  
+   - Evaluated the model using **Accuracy Score**.  
+   - Generated a **Classification Report** including precision, recall, and F1-score.
+
+---
+
+## Tools & Libraries
+
+- **Python**  
+- **Pandas, NumPy** (data analysis)  
+- **Scikit-learn** (modeling, encoding, scaling)  
+- **Matplotlib, Seaborn** (visualization)
+
+---
+
+## Results
+
+The Random Forest model provided insights into key factors driving customer churn and achieved strong performance based on standard classification metrics.
